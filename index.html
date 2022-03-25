@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto+Slab:wght@500&family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet"> 
+    <script
+      src="https://kit.fontawesome.com/638ce302ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>F4life-Moradias Universitárias</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          class="logo-imagem"
+          src="assets/logo-f4life.png"
+          alt="logo f4life"
+        />
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Unidades</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+      
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="principal">
+        <h1 class="titulo-principal">Quem somos</h1>
+        <p class="paragrafo-principal">
+          Somos uma empresa que proporciona moradia compartilhada para
+          estudantes universitários de uma maneira segura e
+          descomplicada. Proporcionamos um ambiente de república diferenciado, com a qualidade e o conforto e segurança de um hotel.
+        </p>
+      
+      <div id=texto-formulario>
+      <h1> Preencha o formulário para agendar sua visita</h1>
+
+      </div>
+      <form>
+        <fieldset class="grupo">
+        <div class="campo">
+          <label for="nome"> Nome:</label>
+          <input type="text" id="nome" placeholder="Digite nome e sobrenome">
+
+        </div>
+
+        <div class="campo">
+          <label>Email:</label>
+          <input type="text" id="email" placeholder="user@domain.com" >
+
+        </div>
+
+        <div class= "campo">
+          <p> Qual o melhor horário para uma visita?</p>
+          <select id="horario">
+            <option selected disable value=" ">Selecione</option>
+          <option>Manhã</option>
+          <option>Tarde</option>
+          </select>
+          </div>
+
+
+          <div class="campo">
+          <label for="mensagem"> Mensagem:</label>
+          <textarea rows="10" id="mensagem" placeholder="Adicione alguma sugestão ou comentário"></textarea>
+          </div>
+          
+
+          <button id="button"type="submit">Enviar</button>
+        </fieldset>
+      </form>
+
+      </section>
+
+
+      <section class="depoimentos">
+        <h1 class="depoimentos-titulo">Depoimentos</h1>
+        <div class=" depoimentos-conteudo">
+        <div class="depoimentos-card">
+          <img src="/assets/user-graduate-solid.svg"  alt="autor depoimento"class="depoimentos-imagem">
+          <p class="depoimentos-texto">
+            "Melhor lugar que escolhi para passar a graduação. Ambiente seguro e tranquilo para estudar.Excelentes áreas compartilhadas."
+          </p>
+          <h3 class=depoimentos-autor"> Marina Feitosa</h3>
+        </div>
+
+        <div class="depoimentos-card">
+        <img src="/assets/user-graduate-solid.svg"  alt="autor depoimento"class="depoimentos-imagem">
+          <p class="depoimentos-texto">
+            "Sentimento muito grande de acolhimento.Local aconchegante e seguro onde fiz muitas amizades"
+          </p>
+          <h3 depoimentos-autor> Leonardo Freitas</h3>
+          
+        </div>
+
+        <div class="depoimentos-card">
+        <img src="/assets/user-graduate-solid.svg"  alt="autor depoimento"class="depoimentos-imagem">
+          <p class="depoimentos-texto">
+            "Bastante praticidade para pagar o aluguel. Tudo pode ser feito digitalmente sem a necessidade de um fiador. Ambiente muito seguro onde pude fazer várias amizades. "
+          </p>
+          <h3 class="depoimentos-autor">Rafaela Bragra</h3>
+        </div>
+        </div>
+      </section>
+
+    </main>
+      <footer>
+        <img src="assets/logo-f4life.png" alt="imagem-f4life-rodapé" alt="logo f4life" />
+        <div class="redes-sociais">
+          <h3 class="redes-sociais-titulo">Nossas redes sociais</h3>
+          <div class="icones">
+          <a href="https://pt-br.facebook.com/" target="_blank" rel="external"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="external" ><i class="fa-brands fa-instagram"></i></a>
+          <a href=" https://twitter.com/" target="_blank" rel="external"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <p>&copy;Copyright F4Life- 2022</p>
+      </footer>
+   <script src="script/index.js"> </script>
+  </body>
+</html>

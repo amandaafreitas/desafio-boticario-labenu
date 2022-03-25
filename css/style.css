@@ -1,0 +1,180 @@
+body {
+  background-color: #132235;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #6ddad3;
+}
+
+main {
+  background-color: white;
+}
+.principal {
+  text-align: center;
+  background-image: url("../assets/studant.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 45px;
+}
+.titulo-principal {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #191970;
+}
+
+.paragrafo-principal {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+}
+
+form label {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  display: flex;
+}
+
+form input {
+  margin: 0 0 20px;
+  width: 500px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+#mensagem {
+  outline: none;
+  width: 500px;
+  border-radius: 5px;
+  border: none;
+}
+
+form p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.grupo {
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #b0e0e6;
+  max-width: 500px;
+  border-radius: 20px;
+  border: none;
+}
+
+.campo {
+  margin: 20px 0 0 0;
+}
+
+#texto-formulario {
+  text-align: center;
+  font-size: 29px;
+}
+
+button {
+  width: 250px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: #ffa500;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+
+.depoimentos {
+  background-color: #6ddad3;
+}
+
+.depoimentos-conteudo {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.depoimentos-titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.depoimentos-imagem {
+  width: 70px;
+  height: 70px;
+}
+
+.depoimentos-card {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 14px;
+  width: 300px;
+  height: 332px;
+  box-shadow: 0px 2px 4px 3px gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer p {
+  color: #6ddad3;
+  text-align: center;
+}
+
+.redes-sociais {
+  color: #6ddad3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.redes-sociais-titulo {
+  font-size: 30px;
+}
+
+.icones {
+  width: 138px;
+  display: flex;
+  justify-content: space-evenly;
+  transform: scale(3);
+}
+.icones a {
+  color: #eee9e9;
+}
+
+/* mobol */
+
+@media (max-width: 600px) {
+  .depoimentos-conteudo {
+    flex-direction: column;
+  }
+  .depoimentos-card {
+    width: 275px;
+  }
+}
